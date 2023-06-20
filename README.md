@@ -91,7 +91,8 @@ Sequents
 
 You can run the prover check the validity/countersatisfiability  of a sequent (option `-c`); the sequent must be written in the input file using the following syntax.
 
-* A  general clause has the form
+A  general clause has the form
+
 ```console
  d1 | d2| ... | ~c1| ~c2 | a1 =/=> b1 |   a2 =/=> b2 | ...
 ```
@@ -101,9 +102,13 @@ where:
 -  b1, b2 ... are atoms or $false
 -   =/=> can be replaced by  # or -/->
 
-* A sequent has the form```console
+A sequent has the form
+
+```console
  gc1 , gc2  , ... , gcn ==>  g
-```where g is an atom or $false. 
+```
+
+where g is an atom or $false. 
 
 
 Example of sequent:
@@ -115,7 +120,7 @@ a1 =/=> b2 | a2 =/=> a3 , ~a1 | a1 , ~a2 | a3 ==> g
 ```
 
 
-The sequent in Exampl 1 can be codified as follows:
+The sequent in Example 1 can be codified as follows:
 
 ```console
 a | ~c ,
