@@ -102,10 +102,9 @@ where:
 -   =/=> can be replaced by  # or -/->
 
 * A sequent has the form
-
-
+```console
  gc1 , gc2  , ... , gcn ==>  g
-
+```
 where g is an atom or $false. 
 
 
