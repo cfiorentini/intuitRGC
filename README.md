@@ -82,8 +82,6 @@ a | (a- b | ~b)
 ```
 
 You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Problems.html).
-Examples of formulas are available in the directory [test](https://github.com/cfiorentini/intuitRGC/tree/main/test)
-(files with suffix `.p`).
 
 
 Sequents 
@@ -108,7 +106,7 @@ A sequent has the form
  gc1 , gc2  , ... , gcn ==>  r
 ```
 
-where gc1, gc2, ... are general  clauses, r  is an atom or $false. 
+where gc1, gc2, ... , gcn are general  clauses, r  is an atom or $false. 
 
 
 Example of sequent:
