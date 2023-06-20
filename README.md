@@ -87,7 +87,7 @@ You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Prob
 Sequents 
 --------
 
-You can run the prover check the validity/countersatisfiability  of a sequent (option `-c`); the sequent must be written in the input file using the following syntax.
+You can run the prover to check the validity/countersatisfiability  of a sequent (option `-c`); the sequent must be written in the input file using the following syntax.
 
 A  general clause has the form
 
