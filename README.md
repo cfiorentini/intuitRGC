@@ -105,10 +105,10 @@ where:
 A sequent has the form
 
 ```console
- gc1 , gc2  , ... , gcn ==>  g
+ gc1 , gc2  , ... , gcn ==>  r
 ```
 
-where g is an atom or $false. 
+where gc1, gc2, ... are general  clauses, r  is an atom or $false. 
 
 
 Example of sequent:
