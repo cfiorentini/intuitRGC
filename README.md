@@ -101,11 +101,9 @@ where:
 -  b1, b2 ... are atoms or $false
 -   =/=> can be replaced by  # or -/->
 
-* A sequent has the form
-```console
+* A sequent has the form```console
  gc1 , gc2  , ... , gcn ==>  g
-```
-where g is an atom or $false. 
+```where g is an atom or $false. 
 
 
 Example of sequent:
