@@ -92,10 +92,9 @@ Sequents
 You can run the prover check the validity/countersatisfiability  of a sequent (option `-c`); the sequent must be written in the input file using the following syntax.
 
 * A  general clause has the form
-
+```console
  d1 | d2| ... | ~c1| ~c2 | a1 =/=> b1 |   a2 =/=> b2 | ...
-
-
+```
 where:
 
 -  a1, a2, ...  c1, c2 ...  d1, d2 ... are atoms
