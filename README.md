@@ -140,4 +140,7 @@ The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree
 Paper examples
 --------------
 
-The directory [paper_examples](https://github.com/cfiorentini/intuitRGC/tree/main/paper_examples) contains the 1200 formulas (in ILTP format) of the benchmark used in the expe
+The directory
+[paper_examples](https://github.com/cfiorentini/intuitRGC/tree/main/paper_examples)
+contains the files encoding the sequents used in the examples
+discussed in the paper. To run them, you have to use the option `-c`.
