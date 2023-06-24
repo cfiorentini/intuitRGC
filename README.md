@@ -154,10 +154,10 @@ If the sequent is codified in the file `seq.gc`, you can use the prover as shown
 
 
 ```console
-intuitRGC -g seq.p           -- prove the sequent 
-intuitRGC -g -t0 seq.p       -- prove the sequent, low trace level
-intuitRGC -g  -r seq.p       -- prove the sequent using  random execution
-                             -- Note that the initial seed used by the random generator is printed
+intuitRGC -g seq.gc           -- prove the sequent 
+intuitRGC -g -t0 seq.gc       -- prove the sequent, low trace level
+intuitRGC -g  -r seq.gc       -- prove the sequent using  random execution
+                              -- Note that the initial seed used by the random generator is printed
 ```
 
 
