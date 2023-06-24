@@ -81,8 +81,24 @@ a | (a- b | ~b)
 ( ((a1 <=> a2) =>  a1 & a2 & a3) & ((a2 <=> a3)  =>  a1 & a2 & a3)  & (( a3 <=> a1)  => a1 & a2 & a3 ) )  =>  a1 & a2 & a3  
 ```
 
-You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Problems.html).
+You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Problems.html)
+(see the files in  the directory  [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/ipl_benchmark_iltp)).
 
+
+For instance, let us assume the the formula to be proved is encoded in the file 'form.txt'.
+Below we show some possible calls.
+
+
+```console
+intuitRGC form.p              -- prove the formula using default clausification
+intuitRGC -t2 form.p          -- prove the formula using default clausification, high trace level
+intuitRGC -w -t0 form.p       -- prove the formula using weak clausification, low trace level
+intuitRGC -s  form.p          -- prove the formula using strong clausification
+intuitRGC -s  -r form.p       -- prove the formula using strong clausification and random execution
+intuitRGC -w  -r1000 form.p   -- prove the formula using weak clausification and random execution, 
+                              -- with initial generator seed set to 1000 
+
+```
 
 Sequents 
 --------
