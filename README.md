@@ -104,7 +104,7 @@ intuitRGC -w  -r1000 form.p   -- prove the formula using weak clausification and
 Sequents 
 --------
 
-You can run the prover to check the validity/countersatisfiability  of a sequent (option `-c`); the sequent must be written in the input file using the following syntax.
+You can run the prover to check the validity/countersatisfiability  of a sequent (option `-g`); the sequent must be written in the input file using the following syntax.
 
 A  general clause has the form
 
@@ -148,15 +148,15 @@ g | b  =/=> a ,
 ```
 
 
-If the sequent is codified in the file `seq.gc`, you can use the prover as shown in the previous section, adding option `-c'
+If the sequent is codified in the file `seq.gc`, you can use the prover as shown in the previous section, adding option `-g'
 (clearly  the input does not require clausification). For instance:
 
 
 
 ```console
-intuitRGC -c seq.p           -- prove the sequent 
-intuitRGC -c -t0 seq.p       -- prove the sequent, low trace level
-intuitRGC -c  -r seq.p       -- prove the sequent using  random execution
+intuitRGC -g seq.p           -- prove the sequent 
+intuitRGC -g -t0 seq.p       -- prove the sequent, low trace level
+intuitRGC -g  -r seq.p       -- prove the sequent using  random execution
                              -- Note that the initial seed used by the random generator is printed
 ```
 
@@ -173,4 +173,4 @@ Paper examples
 The directory
 [paper_examples](https://github.com/cfiorentini/intuitRGC/tree/main/paper_examples)
 contains the files encoding the sequents used in the examples
-discussed in the paper. To run them, you have to use the option `-c`.
+discussed in the paper. To run them, you have to use the option `-g`.
