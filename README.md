@@ -95,8 +95,9 @@ intuitRGC -t2 form.p          -- prove the formula using default clausification,
 intuitRGC -w -t0 form.p       -- prove the formula using weak clausification, low trace level
 intuitRGC -s  form.p          -- prove the formula using strong clausification
 intuitRGC -s  -r form.p       -- prove the formula using strong clausification and random execution
+                              -- Note that the initial seed used by the random generator is printed
 intuitRGC -w  -r1000 form.p   -- prove the formula using weak clausification and random execution, 
-                              -- with initial generator seed set to 1000 
+                              -- with initial generator seed set to 1000  (useful to replicate a random execution)
 
 ```
 
@@ -144,6 +145,19 @@ g | a  =/=> b ,
 g | b  =/=> a , 
 ~d | c  =/=> q 
 ==> g
+```
+
+
+If the sequent is codified in the file `seq.gc`, you can use the prover as shown in the previous section, adding option `-c'
+(clearly  the input does not require clausification). For instance:
+
+
+
+```console
+intuitRGC -c seq.p           -- prove the sequent 
+intuitRGC -c -t0 seq.p       -- prove the sequent, low trace level
+intuitRGC -c  -r seq.p       -- prove the sequent using  random execution
+                             -- Note that the initial seed used by the random generator is printed
 ```
 
 
