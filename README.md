@@ -131,3 +131,13 @@ g | b  =/=> a ,
 ```
 
 
+Benchmarks
+----------
+
+The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/ipl_benchmark_iltp) contains the 1200 formulas (in ILTP format) of the benchmark used in the experiments.
+
+
+Paper examples
+--------------
+
+The directory [paper_examples](https://github.com/cfiorentini/intuitRGC/tree/main/paper_examples) contains the 1200 formulas (in ILTP format) of the benchmark used in the expe
