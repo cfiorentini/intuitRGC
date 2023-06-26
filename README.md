@@ -128,7 +128,7 @@ A sequent has the form
 where gc1, gc2, ...  are general  clauses, r  is an atom or $false. 
 
 
-Example of sequent.
+Example of sequent:
 
 
 ```console
@@ -159,18 +159,27 @@ If the sequent is codified in the file `seq.gc`, you can use the prover as shown
 intuitRGC -g seq.gc           -- prove the sequent 
 intuitRGC -g -t0 seq.gc       -- prove the sequent, low trace level
 intuitRGC -g  -r seq.gc       -- prove the sequent using  random execution
-                              -- Note that the initial seed used by the random generator is printed
+                   
 ```
 
 
 Benchmarks
 ----------
 
-The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/ipl_benchmark_iltp) contains the 1200 formulas (in ILTP format) of the benchmark used in the experiments.
+The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks) contains the formulas used in the experiments
+discussed in the paper.
+
+In particular:
+
+-  `ipl_benchmark_iltp` contains the 1200 formulas of the main benchmark in ILTP syntax (use this to test `intuitRGC`)
+-   `ipl_benchmark_fcube` contains the 1200 formulas of the main benchmark in `fCube` syntax.
+-   `ipl_benchmark_inthist` contains the 1200 formulas of the main benchmark in `intHistGC` syntax.
+-  `ipl_random_varnum_depth_iltp` contains the randomly generated formulas in   ILTP syntax.
 
 
-Paper examples
---------------
+
+Sources of paper examples
+------------------------
 
 The directory
 [paper_examples](https://github.com/cfiorentini/intuitRGC/tree/main/paper_examples)
