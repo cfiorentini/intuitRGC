@@ -1,4 +1,4 @@
-intuitRGC - page under construction -
+intuitRGC 
 =========
 
 An efficient SAT-based theorem prover for Intuitionistic Propostional Logic using general clauses.
@@ -166,15 +166,19 @@ intuitRGC -g  -r seq.gc       -- prove the sequent using  random execution
 Benchmarks
 ----------
 
-The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks) contains the formulas used in the experiments
+The directory [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks) collects the formulas used in the experiments
 discussed in the paper.
 
-In particular:
+In particular, the content of the directories is:
 
--  `ipl_benchmark_iltp` contains the 1200 formulas of the main benchmark in ILTP syntax (use this to test `intuitRGC`)
--   `ipl_benchmark_fcube` contains the 1200 formulas of the main benchmark in `fCube` syntax.
--   `ipl_benchmark_inthist` contains the 1200 formulas of the main benchmark in `intHistGC` syntax.
--  `ipl_random_varnum_depth_iltp` contains the randomly generated formulas in   ILTP syntax.
+-  [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_iltp):
+1200 formulas of the main benchmark in ILTP syntax (use this to test `intuitRGC`)
+-   [ipl_benchmark_fcube](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_fcube):
+1200 formulas of the main benchmark in `fCube` syntax.
+-   [ipl_benchmark_inthist](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/[ipl_benchmark_inthist):
+1200 formulas of the main benchmark in `intHistGC` syntax.
+-  [ipl_random_varnum_depth_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/[ipl_random_varnum_depth_iltp):
+randomly generated formulas in   ILTP syntax.
 
 
 
