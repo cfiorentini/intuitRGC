@@ -110,31 +110,32 @@ You can run the prover to check the validity/countersatisfiability  of a sequent
 A  general clause has the form
 
 ```console
- d1 | d2| ... | ~c1| ~c2 | a1 =/=> b1 |   a2 =/=> b2 | ...
+ d1 | d2| ... | ~c1| ~c2 | ... | a1 =/=> b1 |   a2 =/=> b2 | ...
 ```
 where:
 
 -  a1, a2, ...  c1, c2 ...  d1, d2 ... are atoms
 -  b1, b2 ... are atoms or $false
 -   =/=> can be replaced by  # or -/->
+Note that 
 
 A sequent has the form
 
 ```console
- gc1 , gc2  , ... , gcn ==>  r
+ gc1 , gc2 , ... ==>  r
 ```
 
-where gc1, gc2, ... , gcn are general  clauses, r  is an atom or $false. 
+where gc1, gc2, ...  are general  clauses, r  is an atom or $false. 
 
 
-Example of sequent:
+Example of sequent.
 
 
 ```console
 a1 =/=> b2 | a2 =/=> a3 , ~a1 | a1 , ~a2 | a3 ==> g
 
 ```
-
+Note that in the left-hand side there are three general clauses. 
 
 The sequent in Example 1 can be codified as follows:
 
