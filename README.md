@@ -44,7 +44,7 @@ It should be printed a message like this:
 This means that `intuitRGC` is the command to launch the prover. Actually,
 `intuitRGC` is a symbolic link to    `/myHome/.cabal/bin/intuitRGC`; if
 the command `intuitRGC` is not found you have to add the directory `/myHome/.cabal/bin/` to
-your `PATH` variable (or write the complete path of the command).
+your `PATH` variable (or write the complete path of `intuiRGC`).
 
 
 To print the usage help:
