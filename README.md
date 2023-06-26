@@ -1,7 +1,8 @@
 intuitRGC 
 =========
 
-An efficient SAT-based theorem prover for Intuitionistic Propostional Logic using general clauses.
+An efficient SAT-based theorem prover for Intuitionistic Propostional Logic using general clauses
+implemented in Haskell.
 
 
 
