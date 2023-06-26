@@ -86,8 +86,8 @@ You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Prob
 directory  [benchmarks/ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_iltp)).
 
 
-For instance, let us assume the the formula to be proved is encoded in the file 'form.txt'.
-Below we show some possible calls.
+For instance, let us assume the input formula is written in the file 'form.txt'.
+Below we show some possible command lines.
 
 
 ```console
