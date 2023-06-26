@@ -86,17 +86,17 @@ You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Prob
 directory  [benchmarks/ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_iltp)).
 
 
-For instance, let us assume the input formula is written in the file 'form.txt'.
+For instance, let us assume the input formula is written in the file `form.txt`.
 Below we show some possible command lines.
 
 
 ```console
-intuitRGC form.p              -- prove the formula using default clausification
-intuitRGC -t2 form.p          -- prove the formula using default clausification, high trace level
+intuitRGC form.p              -- prove the formula using the default clausification
+intuitRGC -t2 form.p          -- prove the formula using the default clausification, high trace level
 intuitRGC -w -t0 form.p       -- prove the formula using weak clausification, low trace level
 intuitRGC -s  form.p          -- prove the formula using strong clausification
 intuitRGC -s  -r form.p       -- prove the formula using strong clausification and random execution
-                              -- Note that the initial seed used by the random generator is printed
+                              -- note that the prover prints the initial seed used by the random generator 
 intuitRGC -w  -r1000 form.p   -- prove the formula using weak clausification and random execution, 
                               -- with initial generator seed set to 1000  (useful to replicate a random execution)
 
