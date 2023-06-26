@@ -175,9 +175,9 @@ In particular, the content of the directories is:
 1200 formulas of the main benchmark in ILTP syntax (use this to test `intuitRGC`)
 -   [ipl_benchmark_fcube](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_fcube):
 1200 formulas of the main benchmark in `fCube` syntax.
--   [ipl_benchmark_inthist](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/[ipl_benchmark_inthist):
+-   [ipl_benchmark_inthist](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_inthist):
 1200 formulas of the main benchmark in `intHistGC` syntax.
--  [ipl_random_varnum_depth_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/[ipl_random_varnum_depth_iltp):
+-  [ipl_random_varnum_depth_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_random_varnum_depth_iltp):
 randomly generated formulas in   ILTP syntax.
 
 
