@@ -82,7 +82,8 @@ a | (a- b | ~b)
 ```
 
 You can also use the [TPTP syntax](http://tptp.cs.miami.edu/TPTP/QuickGuide/Problems.html)
-(see the files in  the directory  [ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/ipl_benchmark_iltp)).
+(see the files in  the
+directory  [benchmarks/ipl_benchmark_iltp](https://github.com/cfiorentini/intuitRGC/tree/main/benchmarks/ipl_benchmark_iltp)).
 
 
 For instance, let us assume the the formula to be proved is encoded in the file 'form.txt'.
