@@ -18,6 +18,7 @@ import System.FilePath
 import Control.Monad.State
 import Control.Monad.Reader
 import Control.Monad.RWS
+import Control.Monad (when)
 
 import MiniSat  --  https://hackage.haskell.org/package/minisat
 

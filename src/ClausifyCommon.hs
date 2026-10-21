@@ -10,6 +10,7 @@ import qualified Data.Set as Set
 import Data.List
 import Control.Monad.State
 import Debug.Trace
+import Control.Monad (when)
 
 import Language
 

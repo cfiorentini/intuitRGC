@@ -18,6 +18,7 @@ import System.CPUTime -- getCPUTime :: IO Integer
 import System.Console.GetOpt
 import System.Exit
 import System.Random
+import Control.Monad (when)
 -- import Data.Array.IO
 
 

@@ -9,6 +9,7 @@ import qualified Data.Map as Map
 import qualified Data.Set as Set
 import Control.Monad.State
 import Debug.Trace
+import Control.Monad (when)
 
 import Language
 import ClausifyClaessenRosen

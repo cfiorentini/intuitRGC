@@ -35,6 +35,7 @@ import qualified Data.Map as Map
 import Data.Array.IO
 import System.Random  -- https://hackage.haskell.org/package/mwc-random-0.15.0.2/docs/System-Random-MWC.html
 import Control.Monad.State
+import Control.Monad (forM)
 
 import Language
 import ProverTypes
